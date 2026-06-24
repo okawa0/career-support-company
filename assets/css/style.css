@@ -51,8 +51,6 @@ body {
 
 .company__title-en {
     width: 200px;
-    background: transparent linear-gradient(90deg, #0080fe 0%, #6dfff0 100%) 0% 0% no-repeat padding-box;
-    background-clip: text;
 }
 
 .company__title-jp {
@@ -61,6 +59,45 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
+}
+
+.company__table {
+    margin-top: 64px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #a9a9a9;
+}
+
+.company__row {
+    display: block;
+    border-top: 1px solid #a9a9a9;
+}
+
+.company__row:first-child {
+    border-top: 0;
+}
+
+.company__term {
+    display: block;
+    padding: 18px 20px;
+    width: 100%;
+    background: #dff4ff;
+    border-bottom: 1px solid #a9a9a9;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #0068a8;
+    text-align: left;
+}
+
+.company__description {
+    display: block;
+    padding: 18px 20px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #333333;
 }
 
 .company__cta-wrap {
@@ -113,6 +150,38 @@ body {
         font-size: 24px;
     }
 
+    .company__table {
+        margin-top: 72px;
+    }
+
+    .company__row {
+        display: table-row;
+        border-top: 0;
+    }
+
+    .company__term {
+        display: table-cell;
+        padding: 28px 32px;
+        width: 252px;
+        border-top: 1px solid #a9a9a9;
+        border-right: 1px solid #a9a9a9;
+        border-bottom: 0;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .company__description {
+        display: table-cell;
+        padding: 28px 48px;
+        border-top: 1px solid #a9a9a9;
+        vertical-align: middle;
+    }
+
+    .company__row:first-child .company__term,
+    .company__row:first-child .company__description {
+        border-top: 0;
+    }
+
     .company__cta-wrap {
         margin-top: 80px;
     }
@@ -140,6 +209,12 @@ body {
         left: calc(50% + 220px);
         transform: translate(-50%, -50%);
         margin-top: 0;
+    }
+
+    .company__table {
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
