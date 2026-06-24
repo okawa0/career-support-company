@@ -43,7 +43,7 @@ body {
 }
 
 .company {
-    padding: 32px 16px 40px;
+    padding: 40px 16px 40px;
     overflow: hidden;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 
 .company__table {
-    margin-top: 64px;
+    margin-top: 36px;
     width: 100%;
     border-collapse: collapse;
     border: 1px solid #a9a9a9;
@@ -159,7 +159,7 @@ body {
     }
 
     .company__table {
-        margin-top: 72px;
+        margin-top: 80px;
     }
 
     .company__row {
@@ -170,7 +170,8 @@ body {
     .company__term {
         display: table-cell;
         padding: 28px 32px;
-        width: 252px;
+        width: 15%;
+        min-width: 160px;
         border-top: 1px solid #a9a9a9;
         border-right: 1px solid #a9a9a9;
         border-bottom: 0;
