@@ -63,17 +63,17 @@ body {
     line-height: 1.4;
 }
 
-.cta-wrap {
+.company__cta-wrap {
     margin-top: 36px;
     text-align: center;
 }
 
-.cta {
+.company__cta {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 24px;
-    padding: 14px 32px;
+    gap: 8px;
+    padding: 14px 24px;
     width: 100%;
     max-width: 320px;
     background: var(--color-primary);
@@ -86,16 +86,16 @@ body {
     transition: opacity 0.3s;
 }
 
-.cta-icon {
+.company__cta-icon {
     display: flex;
     transition: transform 0.3s;
 }
 
-.cta:hover {
+.company__cta:hover {
     opacity: 0.85;
 }
 
-.cta:hover .cta-icon {
+.company__cta:hover .company__cta-icon {
     transform: translateX(6px);
 }
 
@@ -113,11 +113,11 @@ body {
         font-size: 24px;
     }
 
-    .cta-wrap {
+    .company__cta-wrap {
         margin-top: 80px;
     }
 
-    .cta {
+    .company__cta {
         max-width: auto;
         min-width: 400px;
         padding: 18px 40px;
