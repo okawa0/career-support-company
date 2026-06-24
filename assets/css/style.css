@@ -73,12 +73,12 @@ body {
     margin-top: 36px;
     width: 100%;
     border-collapse: collapse;
-    border: 1px solid #a9a9a9;
+    border: 1.5px solid #aaa;
 }
 
 .company__row {
     display: block;
-    border-top: 1px solid #a9a9a9;
+    border-top: 1.5px solid #aaa;
 }
 
 .company__row:first-child {
@@ -89,12 +89,12 @@ body {
     display: block;
     padding: 18px 20px;
     width: 100%;
-    background: #dff4ff;
-    border-bottom: 1px solid #a9a9a9;
+    background: #D8F0FF;
+    border-bottom: 1.5px solid #aaa;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.7;
-    color: #0068a8;
+    color: var(--color-primary);
     text-align: left;
 }
 
@@ -117,7 +117,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
     padding: 14px 24px;
     width: 100%;
     max-width: 320px;
@@ -169,11 +169,11 @@ body {
 
     .company__term {
         display: table-cell;
-        padding: 28px 32px;
-        width: 15%;
+        padding: 25px 32px;
+        width: 20%;
         min-width: 160px;
-        border-top: 1px solid #a9a9a9;
-        border-right: 1px solid #a9a9a9;
+        border-top: 1.5px solid #aaa;
+        border-right: 1.5px solid #aaa;
         border-bottom: 0;
         text-align: center;
         vertical-align: middle;
@@ -181,8 +181,8 @@ body {
 
     .company__description {
         display: table-cell;
-        padding: 28px 48px;
-        border-top: 1px solid #a9a9a9;
+        padding: 25px 40px;
+        border-top: 1.5px solid #aaa;
         vertical-align: middle;
     }
 
@@ -200,6 +200,7 @@ body {
         min-width: 400px;
         padding: 18px 40px;
         font-size: 18px;
+        gap: 32px;
     }
 }
 
